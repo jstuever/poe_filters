@@ -1,0 +1,116 @@
+# Filter: STU v1.2
+
+# Specials
+Show
+    Rarity >= Rare
+    LinkedSockets >= 4
+    Class Boot Glove Helmet
+    SetFontSize 45
+    SetBorderColor 255 0 0
+Show
+    LinkedSockets >= 5
+    SetFontSize 45
+    SetBorderColor 255 0 0 
+Show
+    Sockets 6
+    SetBorderColor 255 0 0 
+Show
+    Quality 20
+    SetBorderColor 0 0 255
+
+# Show
+Show
+    Rarity >= Rare
+Show
+    Class Gem Card Jewel Map
+Show
+    BaseType Talisman
+
+# Hide
+Hide
+    Rarity Normal
+    Class Mana Life
+Hide
+   Class Amulet Ring
+Hide
+    Class Bow Claw Dagger Sceptre Stave Wand Quiver Shield Hand
+Hide
+    Class Belt Body Boot Glove Helmet
+
+# Default Show
+Show
+    SetBorderColor 75 75 75
+
+# Source: http://pathofexile.gamepedia.com/Item_filter_guide
+
+# Operations: 
+# ItemLevel [Operator] <Level>
+# DropLevel [Operator] <Level>
+# Quality [Operator] <Quality>
+# Rarity [Operator] <Rarity>
+# Class	<Class>
+# BaseType <Type>
+# Sockets [Operator] <Sockets>
+# LinkedSockets [Operator] <Links>
+# SocketGroup [Group]
+# Height [Operator] <Value>
+# Width [Operator] <Value>
+
+# Actions: 
+# SetBorderColor <Red> <Green> <Blue> [Alpha]
+# SetTextColor <Red> <Green> <Blue> [Alpha]
+# SetBackgroundColor <Red> <Green> <Blue> [Alpha]
+# PlayAlertSound <Id> [Volume]
+# SetFontSize <FontSize(18-45)> 
+
+
+# Class Gem Card Jewel Map
+# Active Skill Gems
+# Support Skill Gems
+# Card
+# Jewel
+# Maps
+# Map Fragments
+
+# Class Flask
+# Life Flask
+# Mana Flask
+# Hybrid Flask
+# Utility Flasks
+
+
+# Class Amulet Ring
+# Amulet
+# Ring
+
+# Class Bow Claw Dagger Sceptre Stave Wand Quiver Shield Hand
+# Bow
+# Claw
+# Dagger
+# Sceptres
+# Staves
+# Wand
+# Quivers
+# Shields
+# One Hand Sword
+# Thrusting One Hand Sword
+# One Hand Axe
+# One Hand Mace
+# Two Hand Swords
+# Two Hand Axes
+# Two Hand Maces
+
+# Class Belt Body Boot Glove Helmet
+# Belt
+# Body Armours
+# Boots
+# Gloves
+# Helmets
+
+# Class {other}
+# Currency
+# Stackable Currency
+# Fishing Rods
+# Hideout Doodads
+# Microtransactions
+# Quest Items

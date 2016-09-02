@@ -1,14 +1,8 @@
-# Filter: STU v1.2
+# Filter: STU v1.3
 
 # Specials
 Show
-    Rarity >= Rare
-    LinkedSockets >= 4
-    Class Boot Glove Helmet
-    SetFontSize 45
-    SetBorderColor 255 0 0
-Show
-    LinkedSockets >= 5
+    LinkedSockets >= 6
     SetFontSize 45
     SetBorderColor 255 0 0 
 Show
@@ -22,16 +16,29 @@ Show
 Show
     Rarity >= Rare
 Show
-    Class Gem Card Jewel Map
+    Class Card Jewel
+Show
+    Class Gem
+    BaseType "Vaal" "Portal" "Added Chaos" "Detonate Mines" "Empower" "Enhance" "Enlighten"
+Show
+    Class Gem Flask
+    Quality > 0
+Show
+    #ItemLevel >= 76
+    Class Map
 Show
     BaseType Talisman
+Show
+    Rarity Normal
+    ItemLevel >= 76
+    BaseType "Fiend Dagger"
+    SetBorderColor 255 255 255
 
 # Hide
 Hide
-    Rarity Normal
-    Class Mana Life
+    BaseType "Scroll"
 Hide
-   Class Amulet Ring
+    Class Amulet Ring Map Gem Flask
 Hide
     Class Bow Claw Dagger Sceptre Stave Wand Quiver Shield Hand
 Hide

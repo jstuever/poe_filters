@@ -2,6 +2,18 @@
 
 # Show character specific itmes here
 
+# Show things useful for new characters
+#Show
+#    BaseType "Scroll"
+#Show
+#    LinkedSockets >= 3
+#    Class Claws Daggers "One Hand" Sceptres Shields Wands
+#    SetBorderColor 0 0 255
+#Show
+#    LinkedSockets >= 4
+#    Class Body Boot Glove Helmet
+#    SetBorderColor 0 0 255
+
 # Show special socket combinations
 Show
     LinkedSockets >= 6
@@ -13,14 +25,6 @@ Show
 Show
     SocketGroup RGB
     SetBorderColor 0 255 0
-Show
-    LinkedSockets >= 3
-    Class Claws Daggers "One Hand" Sceptres Shields Wands
-    SetBorderColor 0 0 255
-Show
-    LinkedSockets >= 4
-    Class Body Boot Glove Helmet
-    SetBorderColor 0 0 255
 
 # Show items worth selling
 Show

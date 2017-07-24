@@ -1,6 +1,8 @@
-# Filter: STU v1.3
+# Filter: STU v1.4
 
-# Specials
+# Show character specific itmes here
+
+# Show special socket combinations
 Show
     LinkedSockets >= 6
     SetFontSize 45
@@ -9,36 +11,36 @@ Show
     Sockets 6
     SetBorderColor 255 0 0 
 Show
-    Quality 20
+    SocketGroup RGB
+    SetBorderColor 0 255 0
+Show
+    LinkedSockets >= 3
+    Class Claws Daggers "One Hand" Sceptres Shields Wands
+    SetBorderColor 0 0 255
+Show
+    LinkedSockets >= 4
+    Class Body Boot Glove Helmet
     SetBorderColor 0 0 255
 
-# Show
-Show
-    Rarity >= Rare
-Show
-    Class Card Jewel
-Show
-    Class Gem
-    BaseType "Vaal" "Portal" "Added Chaos" "Detonate Mines" "Empower" "Enhance" "Enlighten"
+# Show items worth selling
 Show
     Class Gem Flask
     Quality > 0
-Show
-    #ItemLevel >= 76
-    Class Map
-Show
-    BaseType Talisman
+    SetBorderColor 0 0 255
+Show # http://pathofexile.gamepedia.com/List_of_drop-only_gems
+    Class Gem
+    BaseType "Vaal" "Portal" "Added Chaos" "Detonate Mines" "Empower" "Enhance" "Enlighten"
 Show
     Rarity Normal
-    ItemLevel >= 76
-    BaseType "Fiend Dagger"
-    SetBorderColor 255 255 255
+    BaseType "Stone Hammer" "Rock Breaker" "Gavel"
+Show
+    Rarity >= Rare
 
 # Hide
 Hide
     BaseType "Scroll"
 Hide
-    Class Amulet Ring Map Gem Flask
+    Class Amulet Ring Gem Flask Jewel
 Hide
     Class Bow Claw Dagger Sceptre Stave Wand Quiver Shield Hand
 Hide
@@ -46,7 +48,6 @@ Hide
 
 # Default Show
 Show
-    SetBorderColor 75 75 75
 
 # Source: http://pathofexile.gamepedia.com/Item_filter_guide
 
@@ -74,7 +75,7 @@ Show
 # Class Gem Card Jewel Map
 # Active Skill Gems
 # Support Skill Gems
-# Card
+# Divination Card
 # Jewel
 # Maps
 # Map Fragments
@@ -84,15 +85,16 @@ Show
 # Mana Flask
 # Hybrid Flask
 # Utility Flasks
+# Critical Utility Flasks
 
 
 # Class Amulet Ring
 # Amulet
 # Ring
 
-# Class Bow Claw Dagger Sceptre Stave Wand Quiver Shield Hand
+# Class Bow Claws Dagger Sceptre Stave Wand Quiver Shield Hand
 # Bow
-# Claw
+# Claws
 # Dagger
 # Sceptres
 # Staves
@@ -106,9 +108,10 @@ Show
 # Two Hand Swords
 # Two Hand Axes
 # Two Hand Maces
+# Unarmed
 
-# Class Belt Body Boot Glove Helmet
-# Belt
+# Class Belts Body Boots Glove Helmet
+# Belts
 # Body Armours
 # Boots
 # Gloves
@@ -121,3 +124,12 @@ Show
 # Hideout Doodads
 # Microtransactions
 # Quest Items
+# Small Relics
+# Medium Relics
+# Large Relics
+# Labyrinth Item
+# Labyrinth Trinket
+# Labyrinth Map Item
+# Misc Map Items
+# Leaguestones
+# Pantheon Soul
